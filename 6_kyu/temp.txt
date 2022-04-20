@@ -1,0 +1,7 @@
+ dups = []
+  for item in result:
+    if item in dups:
+      result.pop(result.index(item))
+    else :
+      dups.append(item)
+  return result
