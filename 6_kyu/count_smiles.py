@@ -1,0 +1,2 @@
+def count_smileys(arr):
+    return  arr.count(":)") + arr.count(":D") + arr.count(":-)") + arr.count(":-D") + arr.count(";)") + arr.count(";D") + arr.count(";-D") + arr.count(";-)") + arr.count(":~)") + arr.count(";~D")
